@@ -36,7 +36,7 @@ A comprehensive B2B platform for selling and managing phone number credits, buil
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/soroushmp/tabdil_task.git
    cd tabdil-task
    ```
 
@@ -48,7 +48,7 @@ A comprehensive B2B platform for selling and managing phone number credits, buil
 
 3. Start the services using Docker Compose:
    ```bash
-   docker-compose up -d
+   docker-compose up -d --build
    ```
 
 4. The service will automatically:
