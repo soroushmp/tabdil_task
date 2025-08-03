@@ -42,8 +42,7 @@ A comprehensive B2B platform for selling and managing phone number credits, buil
 
 2. Create a `.env` file from the example and configure it:
    ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
+   cp sample.env .env
    ```
 
 3. Start the services using Docker Compose:
