@@ -37,7 +37,7 @@ A comprehensive B2B platform for selling and managing phone number credits, buil
 1. Clone the repository:
    ```bash
    git clone https://github.com/soroushmp/tabdil_task.git
-   cd tabdil-task
+   cd tabdil_task
    ```
 
 2. Create a `.env` file from the example and configure it:
