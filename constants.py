@@ -1,0 +1,9 @@
+PENDING = 'Pending'
+APPROVED = 'Approved'
+REJECTED = 'Rejected'
+
+TRANSACTION_STATE = [
+    (PENDING, PENDING),
+    (APPROVED, APPROVED),
+    (REJECTED, REJECTED),
+]

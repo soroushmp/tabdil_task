@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="iga0q2YMIcAwdPQQzDrJ">
+    <mxGraphModel dx="2084" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="830" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="640" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-3" target="0K3pcW57aq_BRuBjsvxk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-3" value="Client" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="145" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-5" target="0K3pcW57aq_BRuBjsvxk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-5" value="DNS&lt;br&gt;(For Production)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="167.5" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-7" value="Docker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="43.75" width="310" height="286.25" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-8" target="0K3pcW57aq_BRuBjsvxk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-8" target="0K3pcW57aq_BRuBjsvxk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-8" value="Web Server&lt;br&gt;(Reverse Proxy and Load Balancer For Production)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="138.75" width="110" height="92.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-10" target="0K3pcW57aq_BRuBjsvxk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-10" target="0K3pcW57aq_BRuBjsvxk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-10" value="Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479.38" y="95.63" width="90" height="68.75" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-12" value="NFS/File Server&lt;br&gt;(For Production)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="255" width="90" height="68.75" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-15" value="Caching System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596.89" y="205" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-18" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="696.89" y="60" width="48.74" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-24" value="Scaling Needed in Production" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540.63" y="43.75" width="148.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-27" target="0K3pcW57aq_BRuBjsvxk-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.38" y="240" as="sourcePoint" />
+            <mxPoint x="549.38" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-27" value="Application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="479.38" y="205" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-10" target="0K3pcW57aq_BRuBjsvxk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-30" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="696.89" y="140" width="48.74" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-30" target="0K3pcW57aq_BRuBjsvxk-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.38" y="164.38" as="sourcePoint" />
+            <mxPoint x="689.38" y="123.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-32" value="Caching System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596.89" y="278.75" width="100" height="31.25" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0K3pcW57aq_BRuBjsvxk-32" target="0K3pcW57aq_BRuBjsvxk-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="251" as="sourcePoint" />
+            <mxPoint x="610" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-35" value="Monitoring System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="43.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-37" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=8;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="28" y="360" width="782" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-40" value="DNS: Bind9&lt;br&gt;Web Server: Nginx&lt;br&gt;Application Framework: Django (DRF)/FastAPI&lt;br&gt;Cashing System: Redis&lt;br&gt;DBMS: PostgreSQL&lt;br&gt;Monitoring System: Grafana/Prometheus" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#000000);fontStyle=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="36" y="360" width="356" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0K3pcW57aq_BRuBjsvxk-41" value="For web server we have several options but most famous technologies are Nginx and Apache. Cause we are using Docker and Docker itself is Linux base, i choose Nginx that more compatible with Linux than Apache.&lt;br&gt;&lt;br&gt;For application framework selection i personally use FastAPI for this kind of projects. Better Asynchronous Programming Process, Dependency injection , Auto Documentation and Response/Request Schemas are the pros of using this framework.&lt;br&gt;But base on task document, i should do it with Django (DRF) so i choose this framework.&lt;br&gt;&lt;br&gt;For Caching System i know two Caching System Technologies, Redis and Infinispan.&lt;br&gt;Base on my (and also other developers in community) knowledge in these technologies, I select Redis for having optimal expense (Technical) to use these type of technologies.&lt;br&gt;&lt;br&gt;For DB the first question that i have to answer is SQL or NoSQL?&lt;br&gt;This is an interview tasks with lightweight tasks and endpoints. Also we need to select Consistency rather than Availability (CAP Theorem)&lt;br&gt;I do not have a perfect vision for Read/Write tasks amount in this project to select between Read friendly or Write friendly DBs.&lt;br&gt;So i selected SQL for making sure that data are consistent in DB&amp;nbsp;(Using Transactions).&lt;br&gt;In SQL DBMSs i selected PostgreSQL to have better compatibility with Django.&lt;br&gt;&lt;br&gt;For monitoring systems dashboard i choose Grafana and for collecting data from other parts like application and db i use Prometheus&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="36" y="510" width="766" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
