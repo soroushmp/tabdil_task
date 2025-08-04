@@ -3,4 +3,4 @@ docker compose up --build --scale web=8
 start venv\Scripts\python.exe -m locust -f locustfile.py --host=http://127.0.0.1:80
 
 
-docker exec -it tabdiltask-web-1 python manage.py test
+docker exec -it tabdil_task-web-1 python manage.py test --settings=Tabdil.settings_test
